@@ -14,4 +14,4 @@ The output include two optimized datasets:
 - `transformed_incremental.paraquet`- based on newly added data
 
 ## ETL Phases
-- ** 1) Extraction **
+### 1) Extraction
