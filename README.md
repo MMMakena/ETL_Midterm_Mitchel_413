@@ -8,3 +8,10 @@ The pipeline involves:
 - Obtaining incremental and raw datasets from CSV files.
 -  Data cleansing, enrichment, filtering, and or structuring.
 - For effective storage and querying, the converted data should be saved in Parquet format.
+
+The output include two optimized datasets:
+- `transformed_full.paraquet` - based on historic full data
+- `transformed_incremental.paraquet`- based on newly added data
+
+## ETL Phases
+- ** 1) Extraction **
