@@ -15,3 +15,6 @@ The output include two optimized datasets:
 
 ## ETL Phases
 ### 1) Extraction
+File name : `etl_extraction.ipynb`
+
+- Loaded both the `raw_data.csv` and `incremental_data.csv` datasets provide using ** Pandas **
