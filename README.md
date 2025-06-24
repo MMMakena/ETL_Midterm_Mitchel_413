@@ -18,3 +18,7 @@ The output include two optimized datasets:
 File name : `etl_extraction.ipynb`
 
 - Loaded both the `raw_data.csv` and `incremental_data.csv` datasets provide using **Pandas**
+- Used `.head()` to display the first few records and `.info()` to get information on the two datasets.
+- Made observations on the data,found 88 and 12 missing values on raw data and incremental respectively. Found 1 in raw data and 0 in incremental data duplicates. Using `.isnull()`,`.duplicated()` and `.sum()` functions.
+- Made a directory `Data` and save both data there.
+
