@@ -66,17 +66,23 @@ Flie name : `etl_load.ipynb`
 ## How to run the Project
 Follow these steps to set up and run the ETL project
 **1. Clone the repository**
-`git clone https://github.com/MMMakena/ETL-Midterm-Mitchel-413.git`
-`cd ETL_MIDTERM_MITCHEL_413`
+```bash
+git clone https://github.com/MMMakena/ETL-Midterm-Mitchel-413.git
+cd ETL_MIDTERM_MITCHEL_413
+```
 
 **2. Install Dependencies**
-`pip install pandas pyarrow`
+``` bash
+pip install pandas pyarrow
+```
 
 **3. Place the data files**
 Ensure the data files (`raw_data.csv`and `incremental_data.csv`) are located in a designated `Data` directory within the project folder.
 
 **4. Launch Jupyter Notebook**
-`jupyter notebook`
+``` bash
+jupyter notebook
+```
 
 **5. Execute notebooks**
 - `etl_extract.ipynb`: Run all cells to extract data and perform initial loading.
