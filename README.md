@@ -27,4 +27,18 @@ File name: `etl_transform.ipynb`
 For `raw_data`:
 
 **Cleaning**:
-- 
+- Dropped the duplicted rows.
+- Filled the categorical columns `customer_name`,`product`and `region` with `Unknown`
+- Filled the numerical columns `quantity` and `unit_price` with their mean.
+
+**Enrichment**: Added a column `total_price`by multiplying `quantity` and `unit_price`.
+
+**Structural**: converted the `order_date`to `datetime`.
+
+**Filtering**: Filtered out the `region`row.
+
+For `incremental_data`:
+- Applied similar cleaning method.
+- Added the `total_price`column
+- Change `order_date` to `datetime`
+- Filter out the `customer_name` column
