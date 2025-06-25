@@ -62,3 +62,6 @@ Flie name : `etl_load.ipynb`
 | PyArrow | Parquet file support in Pandas |
 | Parquet | Columnar storage file format |
 | Jupyter Notebook | Development Environment |
+
+## How to run the Project
+Follow these steps to set up and run the ETL project
