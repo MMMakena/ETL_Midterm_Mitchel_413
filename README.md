@@ -22,3 +22,9 @@ File name : `etl_extraction.ipynb`
 - Made observations on the data,found 88 and 12 missing values on raw data and incremental respectively. Found 1 in raw data and 0 in incremental data duplicates. Using `.isnull()`,`.duplicated()` and `.sum()` functions.
 - Made a directory `Data` and save both data there.
 
+### 2) Transformation
+File name: `etl_transform.ipynb`
+For `raw_data`:
+
+**Cleaning**:
+- 
