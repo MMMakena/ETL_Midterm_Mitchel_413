@@ -42,3 +42,23 @@ For `incremental_data`:
 - Added the `total_price`column
 - Change `order_date` to `datetime`
 - Filter out the `customer_name` column
+
+- Made a directory `Transformed` and saved the CSV files 
+
+### 3) Loading
+Flie name : `etl_load.ipynb`
+- Loaded the transformed CSV files
+- Saved the transformed datasets in **Parquet** format using `pandas.to_parquet()`
+- Saved into a structured directory:`/Loaded/`
+  -`transformed_full.parquet`
+  -`transfoemed_incremental.parquet`
+- Previewed the result using: `pd.read_parquet().head()`
+
+## Tool Used
+| Tool/Libray | Use |
+|----------|----------|
+| Python | Programming Language |
+| Pandas | Essential library for data manipulation and analysis | 
+| PyArrow | Parquet file support in Pandas |
+| Parquet | Columnar storage file format |
+| Jupyter Notebook | Development Environment |
